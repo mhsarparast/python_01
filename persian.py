@@ -1,1 +1,1 @@
-from persiantools import to_word
+print('s')
