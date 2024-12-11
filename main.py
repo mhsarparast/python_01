@@ -1,16 +1,37 @@
-# This is a sample Python script.
+from heyatmodire import heyatmodire
+from bazargani import bazargani
+from mali import mali
+from manabe import manabe
+from fava import fava
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+bazargani=bazargani()
+bazargani.modire=input("enter modire")
+bazargani.moshaver=input("enter moshaver")
+bazargani.carshenas=input("enter carshenas")
+bazargani.bazaryab=input("enter bazaryab")
+bazargani.foroosh=input("enter carshenas_foroosh")
+bazargani.ertebat_moshtary=input("enter carshenas_ertebat_moshtary")
 
+manabe=manabe()
+manabe.modire=input("enter modire")
+manabe.moshaver=input("enter moshaver")
+manabe.carshenas=input("enter carshenas")
+manabe.moteKhase_jazb=input("enter moteKhase_jazb")
+manabe.moteKhase_amoozesh=input("enter moteKhase_amoozesh")
+manabe.moteKhase_omoor_edari=input("enter moteKhase_omoor_edari")
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+mali=mali()
+mali.modire=input("enter modire")
+mali.moshaver=input("enter moshaver")
+mali.carshenas=input("enter carshenas")
+mali.hesabdar=input("enter hesabdar")
+mali.hesabres=input("enter hesabres")
+mali.sandogh=input("enter fund_manager")
 
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+fava=fava()
+fava.modire=input("enter modire")
+fava.moshaver=input("enter moshaver")
+fava.carshenas=input("enter carshenas")
+fava.modire_system = input("enter modire_system")
+fava.modire_amniat= input("enter modire_amniat")
+fava.tahlilgar_system = input("enter tahlilgar")
